@@ -25,7 +25,7 @@ function criarPalavraSecreta() {
             tempoRestante--;
             atualizarTemporizador();
         } else {
-            window.location.href = "pages/derrota.html?palavraRevelada=" + palavraSecretaSorteada;
+            window.location.href = "derrota.html?palavraRevelada=" + palavraSecretaSorteada;
         }
     }, 1000); // Atualiza a cada 1 segundo
 

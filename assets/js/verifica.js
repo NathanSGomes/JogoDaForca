@@ -60,11 +60,11 @@ function comparaListas(letra) {
     }
 
     if (vitoria == true) {
-        window.location.href = "pages/vitoria.html?palavraRevelada=" + palavraSecretaSorteada;
+        window.location.href = "vitoria.html?palavraRevelada=" + palavraSecretaSorteada;
         tentativas = 0;
     }
     else if (tentativas == 0) {
-        window.location.href = "pages/derrota.html?palavraRevelada=" + palavraSecretaSorteada;
+        window.location.href = "derrota.html?palavraRevelada=" + palavraSecretaSorteada;
     }
 
 }
