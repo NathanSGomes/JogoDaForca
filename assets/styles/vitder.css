@@ -1,0 +1,55 @@
+.container-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+}
+
+.titulo {
+    color: var(--p-color);
+    font-size: 2.2rem;
+    font-weight: 900;
+    white-space: nowrap;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.resposta {
+    color: var(--p-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#palavraRevelada {
+    color: var(--p-color);
+    border-bottom: 2px solid var(--btn-color);
+    box-shadow: 0 0.2em 0.2em -0.2em var(--btn-color);
+    padding: 0.2rem 0.7rem;
+}
+
+.btnJogar {
+    color: var(--p-color);
+    background: transparent;
+    border: 3px solid var(--btn-color);
+    border-radius: 12px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.btnJogar:hover,
+.btnJogar:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--btn-color);
+  transform: translateY(-0.25em);
+  transition: 0.4s;
+}

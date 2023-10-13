@@ -1,0 +1,13 @@
+#categoria {
+    color: var(--p-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+#categoriaPalavra{
+    color: var(--p-color);
+    border-bottom: 2px solid var(--btn-color);
+    box-shadow: 0 0.2em 0.2em -0.2em var(--btn-color);
+    padding: 0.2rem 0.7rem;
+}
