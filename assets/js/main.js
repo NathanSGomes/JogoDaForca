@@ -79,6 +79,126 @@ const paises = [
         nome: "ZIMBÁBUE",
         categoria: "PAIS"
     },
+    palavra021 = {
+        nome: "COSTA RICA",
+        categoria: "PAIS"
+    },
+    palavra022 = {
+        nome: "NOVA ZELÂNDIA",
+        categoria: "PAIS"
+    },
+    palavra023 = {
+        nome: "COLÔMBIA",
+        categoria: "PAIS"
+    },
+    palavra024 = {
+        nome: "COREIA DO SUL",
+        categoria: "PAIS"
+    },
+    palavra025 = {
+        nome: "ARÁBIA SAUDITA",
+        categoria: "PAIS"
+    },
+    palavra026 = {
+        nome: "ESTADOS UNIDOS",
+        categoria: "PAIS"
+    },
+    palavra027 = {
+        nome: "AUSTRÁLIA",
+        categoria: "PAIS"
+    },
+    palavra028 = {
+        nome: "REINO UNIDO",
+        categoria: "PAIS"
+    },
+    palavra029 = {
+        nome: "ITÁLIA",
+        categoria: "PAIS"
+    },
+    palavra030 = {
+        nome: "PORTUGAL",
+        categoria: "PAIS"
+    },
+    palavra031 = {
+        nome: "SUÍÇA",
+        categoria: "PAIS"
+    },
+    palavra032 = {
+        nome: "NORUEGA",
+        categoria: "PAIS"
+    },
+    palavra033 = {
+        nome: "DINAMARCA",
+        categoria: "PAIS"
+    },
+    palavra034 = {
+        nome: "FINLÂNDIA",
+        categoria: "PAIS"
+    },
+    palavra035 = {
+        nome: "HOLANDA",
+        categoria: "PAIS"
+    },
+    palavra036 = {
+        nome: "BÉLGICA",
+        categoria: "PAIS"
+    },
+    palavra037 = {
+        nome: "ÁUSTRIA",
+        categoria: "PAIS"
+    },
+    palavra038 = {
+        nome: "GRÉCIA",
+        categoria: "PAIS"
+    },
+    palavra039 = {
+        nome: "ÁFRICA DO SUL",
+        categoria: "PAIS"
+    },
+    palavra040 = {
+        nome: "QUÊNIA",
+        categoria: "PAIS"
+    },
+    palavra041 = {
+        nome: "CUBA",
+        categoria: "PAIS"
+    },
+    palavra042 = {
+        nome: "PANAMÁ",
+        categoria: "PAIS"
+    },
+    palavra043 = {
+        nome: "TAILÂNDIA",
+        categoria: "PAIS"
+    },
+    palavra044 = {
+        nome: "MALÁSIA",
+        categoria: "PAIS"
+    },
+    palavra045 = {
+        nome: "INDONÉSIA",
+        categoria: "PAIS"
+    },
+    palavra046 = {
+        nome: "VIETNÃ",
+        categoria: "PAIS"
+    },
+    palavra047 = {
+        nome: "SINGAPURA",
+        categoria: "PAIS"
+    },
+    palavra048 = {
+        nome: "FILIPINAS",
+        categoria: "PAIS"
+    },
+    palavra049 = {
+        nome: "QATAR",
+        categoria: "PAIS"
+    },
+    palavra050 = {
+        nome: "IRLANDA",
+        categoria: "PAIS"
+    }
 ];
 
 const frutas = [
@@ -131,7 +251,7 @@ const frutas = [
         categoria: "FRUTA"
     },
     palavra013 = {
-        nome: "PÊRA",
+        nome: "PERA",
         categoria: "FRUTA"
     },
     palavra014 = {
@@ -165,7 +285,123 @@ const frutas = [
     palavra021 = {
         nome: "MAÇA",
         categoria: "FRUTA"
-    }
+    },
+    palavra022 = {
+        nome: "AÇAÍ",
+        categoria: "FRUTA"
+    },
+    palavra023 = {
+        nome: "BACABA",
+        categoria: "FRUTA"
+    },
+    palavra024 = {
+        nome: "BIRIBÁ",
+        categoria: "FRUTA"
+    },
+    palavra025 = {
+        nome: "CAJÁ",
+        categoria: "FRUTA"
+    },
+    palavra026 = {
+        nome: "CAQUI",
+        categoria: "FRUTA"
+    },
+    palavra027 = {
+        nome: "CARAMBOLA",
+        categoria: "FRUTA"
+    },
+    palavra028 = {
+        nome: "CIDRA",
+        categoria: "FRUTA"
+    },
+    palavra029 = {
+        nome: "CUPUAÇU",
+        categoria: "FRUTA"
+    },
+    palavra030 = {
+        nome: "FRAMBOESA",
+        categoria: "FRUTA"
+    },
+    palavra031 = {
+        nome: "GROSELHA",
+        categoria: "FRUTA"
+    },
+    palavra032 = {
+        nome: "JABUTICABA",
+        categoria: "FRUTA"
+    },
+    palavra033 = {
+        nome: "JAMBO",
+        categoria: "FRUTA"
+    },
+    palavra034 = {
+        nome: "LIMÃO",
+        categoria: "FRUTA"
+    },
+    palavra035 = {
+        nome: "MAMÃO",
+        categoria: "FRUTA"
+    },
+    palavra036 = {
+        nome: "MELÃO",
+        categoria: "FRUTA"
+    },
+    palavra037 = {
+        nome: "PEQUI",
+        categoria: "FRUTA"
+    },
+    palavra038 = {
+        nome: "ROMÃ",
+        categoria: "FRUTA"
+    },
+    palavra039 = {
+        nome: "TÂMARA",
+        categoria: "FRUTA"
+    },
+    palavra040 = {
+        nome: "SERIGUELA",
+        categoria: "FRUTA"
+    },
+    palavra041 = {
+        nome: "TAMARINDO",
+        categoria: "FRUTA"
+    },
+    palavra042 = {
+        nome: "TANGERINA",
+        categoria: "FRUTA"
+    },
+    palavra043 = {
+        nome: "TUCUMÃ",
+        categoria: "FRUTA"
+    },
+    palavra044 = {
+        nome: "AMEIXA",
+        categoria: "FRUTA"
+    },
+    palavra045 = {
+        nome: "TORANJA",
+        categoria: "FRUTA"
+    },
+    palavra046 = {
+        nome: "LICHIA",
+        categoria: "FRUTA"
+    },
+    palavra047 = {
+        nome: "TOMATE",
+        categoria: "FRUTA"
+    },
+    palavra048 = {
+        nome: "CAMBUCI",
+        categoria: "FRUTA"
+    },
+    palavra049 = {
+        nome: "OXICOCO",
+        categoria: "FRUTA"
+    },
+    palavra050 = {
+        nome: "MIRTILO",
+        categoria: "FRUTA"
+    },
 ];
 
 const animais = [
@@ -212,5 +448,11 @@ const animais = [
     palavra041 = { nome: "RATO", categoria: "ANIMAL" },
     palavra042 = { nome: "SAPO", categoria: "ANIMAL" },
     palavra043 = { nome: "TARTARUGA", categoria: "ANIMAL" },
-    palavra044 = { nome: "TIGRE", categoria: "ANIMAL" }
+    palavra044 = { nome: "TIGRE", categoria: "ANIMAL" },
+    palavra045 = { nome: "PICA PAU", categoria: "ANIMAL" },
+    palavra046 = { nome: "BÚFALO", categoria: "ANIMAL" },
+    palavra047 = { nome: "ANTÍLOPE", categoria: "ANIMAL" },
+    palavra048 = { nome: "DRAGÃO DE KOMODO", categoria: "ANIMAL" },
+    palavra049 = { nome: "FAISÃO", categoria: "ANIMAL" },
+    palavra050 = { nome: "LOBO GUARÁ", categoria: "ANIMAL" }
 ];
