@@ -66,7 +66,7 @@ function montarPalavraNaTela() {
     }
 }
 
-
+// Cuida do timer dentro do html
 function atualizarTemporizador() {
     const temporizadorMsg = document.getElementById('temporizador');
     const minutos = Math.floor(tempoRestante / 60);

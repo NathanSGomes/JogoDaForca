@@ -1,6 +1,6 @@
 const paises = [
     palavra001 = {
-        nome: "AFEGANISTAO",
+        nome: "AFEGANISTÃO",
         categoria: "PAIS"
     },
     palavra002 = {
@@ -8,7 +8,7 @@ const paises = [
         categoria: "PAIS"
     },
     palavra003 = {
-        nome: "ALBANIA",
+        nome: "ALBÂNIA",
         categoria: "PAIS"
     },
     palavra004 = {
@@ -16,7 +16,7 @@ const paises = [
         categoria: "PAIS"
     },
     palavra005 = {
-        nome: "CANADA",
+        nome: "CANADÁ",
         categoria: "PAIS"
     },
     palavra006 = {
@@ -36,23 +36,23 @@ const paises = [
         categoria: "PAIS"
     },
     palavra010 = {
-        nome: "FRANCA",
+        nome: "FRANÇA",
         categoria: "PAIS"
     },
     palavra011 = {
-        nome: "INDIA",
+        nome: "ÍNDIA",
         categoria: "PAIS"
     },
     palavra012 = {
-        nome: "JAPAO",
+        nome: "JAPÃO",
         categoria: "PAIS"
     },
     palavra013 = {
-        nome: "MEXICO",
+        nome: "MÉXICO",
         categoria: "PAIS"
     },
     palavra014 = {
-        nome: "NIGERIA",
+        nome: "NIGÉRIA",
         categoria: "PAIS"
     },
     palavra015 = {
@@ -60,7 +60,7 @@ const paises = [
         categoria: "PAIS"
     },
     palavra016 = {
-        nome: "RUSSIA",
+        nome: "RÚSSIA",
         categoria: "PAIS"
     },
     palavra017 = {
@@ -72,11 +72,11 @@ const paises = [
         categoria: "PAIS"
     },
     palavra019 = {
-        nome: "SUECIA",
+        nome: "SUÉCIA",
         categoria: "PAIS"
     },
     palavra020 = {
-        nome: "ZIMBABUE",
+        nome: "ZIMBÁBUE",
         categoria: "PAIS"
     },
 ];
@@ -87,11 +87,11 @@ const frutas = [
         categoria: "FRUTA"
     },
     palavra002 = {
-        nome: "PESSEGO",
+        nome: "PÊSSEGO",
         categoria: "FRUTA"
     },
     palavra003 = {
-        nome: "MARACUJA",
+        nome: "MARACUJÁ",
         categoria: "FRUTA"
     },
     palavra004 = {
@@ -131,7 +131,7 @@ const frutas = [
         categoria: "FRUTA"
     },
     palavra013 = {
-        nome: "PERA",
+        nome: "PÊRA",
         categoria: "FRUTA"
     },
     palavra014 = {
@@ -161,12 +161,16 @@ const frutas = [
     palavra020 = {
         nome: "MORANGO",
         categoria: "FRUTA"
+    },
+    palavra021 = {
+        nome: "MAÇA",
+        categoria: "FRUTA"
     }
 ];
 
 const animais = [
     palavra001 = { nome: "ABELHA", categoria: "ANIMAL" },
-    palavra002 = { nome: "AGUIA", categoria: "ANIMAL" },
+    palavra002 = { nome: "ÁGUIA", categoria: "ANIMAL" },
     palavra003 = { nome: "ANDORINHA", categoria: "ANIMAL" },
     palavra004 = { nome: "ARANHA", categoria: "ANIMAL" },
     palavra005 = { nome: "BALEIA", categoria: "ANIMAL" },
@@ -181,32 +185,32 @@ const animais = [
     palavra014 = { nome: "COELHO", categoria: "ANIMAL" },
     palavra015 = { nome: "CORUJA", categoria: "ANIMAL" },
     palavra016 = { nome: "CROCODILO", categoria: "ANIMAL" },
-    palavra017 = { nome: "DROMEDARIO", categoria: "ANIMAL" },
+    palavra017 = { nome: "DROMEDÁRIO", categoria: "ANIMAL" },
     palavra018 = { nome: "ELEFANTE", categoria: "ANIMAL" },
     palavra019 = { nome: "ESCARAVELHO", categoria: "ANIMAL" },
-    palavra020 = { nome: "ESCORPIAO", categoria: "ANIMAL" },
+    palavra020 = { nome: "ESCORPIÃO", categoria: "ANIMAL" },
     palavra021 = { nome: "FLAMINGO", categoria: "ANIMAL" },
     palavra022 = { nome: "GAFANHOTO", categoria: "ANIMAL" },
     palavra023 = { nome: "GAIVOTA", categoria: "ANIMAL" },
     palavra024 = { nome: "GALINHA", categoria: "ANIMAL" },
     palavra025 = { nome: "GALO", categoria: "ANIMAL" },
     palavra026 = { nome: "GATO", categoria: "ANIMAL" },
-    palavra027 = { nome: "PINGUIM", categoria: "ANIMAL"},
+    palavra027 = { nome: "PINGUIM", categoria: "ANIMAL" },
     palavra028 = { nome: "GORILA", categoria: "ANIMAL" },
-    palavra029 = { nome: "JACARE", categoria: "ANIMAL" },
-    palavra030 = { nome: "LEAO", categoria: "ANIMAL" },
-    palavra031 = { nome: "LIBELULA", categoria: "ANIMAL" },
+    palavra029 = { nome: "JACARÉ", categoria: "ANIMAL" },
+    palavra030 = { nome: "LEÃO", categoria: "ANIMAL" },
+    palavra031 = { nome: "LIBÉLULA", categoria: "ANIMAL" },
     palavra032 = { nome: "LOBO", categoria: "ANIMAL" },
     palavra033 = { nome: "MARIPOSA", categoria: "ANIMAL" },
     palavra034 = { nome: "MACACO", categoria: "ANIMAL" },
     palavra035 = { nome: "MOSQUITO", categoria: "ANIMAL" },
     palavra036 = { nome: "PAPAGAIO", categoria: "ANIMAL" },
     palavra037 = { nome: "PATO", categoria: "ANIMAL" },
-    palavra038 = { nome: "PAVAO", categoria: "ANIMAL" },
+    palavra038 = { nome: "PAVÃO", categoria: "ANIMAL" },
     palavra039 = { nome: "PEIXE", categoria: "ANIMAL" },
     palavra040 = { nome: "POMBA", categoria: "ANIMAL" },
     palavra041 = { nome: "RATO", categoria: "ANIMAL" },
     palavra042 = { nome: "SAPO", categoria: "ANIMAL" },
     palavra043 = { nome: "TARTARUGA", categoria: "ANIMAL" },
-    palavra044 = { nome: "TIGRE", categoria: "ANIMAL" } 
-  ];
+    palavra044 = { nome: "TIGRE", categoria: "ANIMAL" }
+];

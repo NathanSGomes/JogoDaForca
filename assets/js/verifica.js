@@ -33,22 +33,29 @@ function inverterCoresBotao(btnLetra) {
 
 // Verifica se a letra selecionada existe dentro da palavra secreta
 function comparaListas(letra) {
-    const posicao = palavraSecretaSorteada.indexOf(letra)
+    let variacoesLetras = mapeamentoLetras[letra] || [letra]; // Pega todas as variações da letra ou a própria letra
 
-    // Caso não exista a letra dentro da palavra diminiu 1 tentativa
-    if (posicao < 0) {
-        tentativas--;
-        atualizarTentativasRestantes(); // Chama a função para atualizar o número de tentativas no HTML
-        carregarImagemForca();
-    }
+    let letraEncontrada = false; // Verificar se alguma letra foi encontrada
 
-    // Caso a letra esteja dentro da palavra secreta não diminui as chances
-    else {
-        for (i = 0; i < palavraSecretaSorteada.length; i++) {
-            if (palavraSecretaSorteada[i] == letra) {
-                listaDinamica[i] = letra;
+    // Coloca o array dentro do paramentro letras para comparar com a palavraSorteadaSecreta
+    variacoesLetras.forEach((letras) => {
+        const posicao = palavraSecretaSorteada.indexOf(letras);
+
+        if (posicao >= 0) {
+            letraEncontrada = true;
+            for (let i = 0; i < palavraSecretaSorteada.length; i++) {
+                if (palavraSecretaSorteada[i] === letras) {
+                    listaDinamica[i] = letras;
+                }
             }
         }
+    });
+
+    // Caso não tenha encontrado nenhuma letra, diminui 1 tentativa
+    if (!letraEncontrada) {
+        tentativas--;
+        atualizarTentativasRestantes();
+        carregarImagemForca();
     }
 
     // Verifica se todas as letras batem com as da lista dinamica    
